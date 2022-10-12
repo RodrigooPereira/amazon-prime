@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Amazon Ember";
+  src: url("AmazonEmber_Rg.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Amazon Ember Light";
+  src: url("AmazonEmber_Lt.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Amazon Ember;
+}
+
+header {
+  background-color: #1B252F;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+  width: 100vw;
+  position: fixed;
+}
+    
+.logo-header {
+  height: 40px;
+  width: 112px;
+  margin-left: 3.5vw;
+}
+
+nav {
+  display: flex;
+  margin-right: 4vw;
+}
+
+nav a {
+  color: rgba(242,244,246,.9);
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.language, .login {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.www {
+  height: 26px;
+  width: 26px;
+  padding-right: 4px;
+}
+
+.first {
+  padding-top: 72px;
+}
+
+.first-padding {
+  height: 100vh;
+  background-color: #0F1111;;
+  background-image: url(imagens/bg-gd.jpg);
+  background-size: cover;
+}
+
+.first-conteudo {
+  width: 40vw;
+  margin-right: 5vw;
+  height: 100vh;
+  float: right;
+  color: white;
+}
+
+.first-conteudo h1, .second-conteudo h1, .third-conteudo h1 {
+  font-size: 2.5rem;
+  margin-top: 8vh;
+  font-weight: 100;
+  margin-bottom: 21px;
+}
+
+.p-conteudo {
+  font-size: 21px;
+  font-family: "Amazon Ember Light";
+  margin-bottom: 45px;
+}
+
+.first-cta, .second-cta, .third-cta {
+  text-decoration: none;
+  color: white;
+}
+
+.first-cta-content {
+  display: flex;
+  width: 280px;
+  height: 54px;
+  background-color: #0F79AF;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  border-radius: 3px;
+}
+
+.separator{
+  margin-top: 14px;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  width: 280px;
+}
+
+.separator h2{
+  padding: 0 10px;
+  font-family: "Amazon Ember Light";
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.separator .line{
+  flex: 1;
+  height: 1px;
+  background-color: white;
+}
+
+.small-p {
+  font-family: "Amazon Ember Light";
+  font-size: 15px;
+  margin-top: 45px;
+}
+
+.second {
+  height: 77vh;
+  background-image: url(imagens/cancel-gr.jpg);
+  background-size: cover;
+  color: black;
+}
+
+.second-conteudo, .third-conteudo {
+  width: 40vw;
+  margin-right: 5vw;
+  float: right;
+  height: 77vh;
+}
+
+.second-cta-content, .third-cta-content {
+  display: flex;
+  width: 314px;
+  height: 54px;
+  background-color: #0F79AF;
+  justify-content: center;
+  align-items: center;
+  font-size: 17px;
+  border-radius: 3px;
+  margin-top: 50px;
+}
+
+.third {
+  height: 77vh;
+  background-image: url(imagens/bg2-gd.jpg);
+  background-size: cover;
+  color: white;
+}
+
+.fourth {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+
+.devices {
+  display: flex;
+  width: 90vw;
+  height: 90vh;
+  text-align: center;
+}
+
+.devices h2 {
+  font-size: 36px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+
+.devices p {
+  font-family: "Amazon Ember Light";
+  font-size: 21px;
+  width: 90%;
+  margin: auto;
+}
+ 
+.device {
+  width: 33.3333%;
+}
+
+.image-device {
+  padding-top: 50px;
+  display: block;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+footer {
+  height: 25vh;
+  background-color: #222222;
+}
+
+.img-footer {
+  display: block;
+  margin: auto;
+  padding-top: 25px;
+}
+
+.links-footer {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.links-footer a {
+  text-decoration: none;
+  padding: 10px;
+  font-family: "Amazon Ember Light";
+  color: #0f79af;
+}
+
+footer p {
+  text-align: center;
+  color: #949494;
+  font-size: 15px;
+  font-family: "Amazon Ember Light";
+}
+
+@media (max-width: 850px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .first-padding {
+    background-image: none;
+    background-color: #000000;
+  }
+  
+  .bg-pq {
+    height: 25vh;
+    background-image: url(imagens/bg-pq.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 60vh;
+  }
+
+  .space {
+    height: 75%;
+  }
+
+  .opacity {
+    height: 25%;
+    background-image: linear-gradient(to top,#000000, #00000000);
+  }
+
+  .first-conteudo {
+    text-align: center;
+    width: 90vw;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    height: 100vh;
+    float: none;
+    overflow-y: hidden;
+  }
+
+  .first-conteudo h1 {
+    font-size: 32px;
+    margin-top: 0vh;
+    font-weight: 100;
+    margin-bottom: 15px;
+  }
+
+  .p-conteudo {
+    font-size: 17px;
+    margin-bottom: 45px;
+  }
+
+  .center-cta {
+    display: block;
+    margin: auto;
+    width: 280px;
+  }
+
+}
