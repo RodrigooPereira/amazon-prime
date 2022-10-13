@@ -233,11 +233,12 @@ footer p {
 
 @media (max-width: 850px) {
 
-  body {
+  * {
     overflow-x: hidden;
   }
 
   .first-padding {
+    height: 90vh;
     background-image: none;
     background-color: #000000;
   }
@@ -258,32 +259,104 @@ footer p {
     background-image: linear-gradient(to top,#000000, #00000000);
   }
 
-  .first-conteudo {
+  .first-conteudo, .second-conteudo, .third-conteudo {
     text-align: center;
     width: 90vw;
     margin-right: 5vw;
     margin-left: 5vw;
-    height: 100vh;
     float: none;
     overflow-y: hidden;
   }
 
-  .first-conteudo h1 {
+  .first-conteudo {
+    height: 90vh;
+  }
+
+  .first-conteudo h1, .second-conteudo h1, .third-conteudo h1 {
     font-size: 32px;
-    margin-top: 0vh;
+    margin-top: 1vh;
     font-weight: 100;
     margin-bottom: 15px;
   }
 
   .p-conteudo {
     font-size: 17px;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
   }
 
   .center-cta {
     display: block;
     margin: auto;
     width: 280px;
+  }
+
+  .second {
+    background-image: none;
+    background-color: #B0E5F7;
+    height: 95vh;
+  }
+
+  .second-conteudo {
+    height: 40vh;
+  }
+
+  .cancel-pq {
+    height: 45vh;
+    background-image: url(imagens/cancel-pq.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 60vh;
+  }
+
+  .space-second {
+    height: 75%;
+  }
+
+  .opacity-second {
+    height: 25%;
+    background-image: linear-gradient(to top, #B0E5F7, #b0e5f700);
+  }
+
+  .center {
+    display: block;
+    margin: auto;
+    width: 314px;
+  }
+
+  .second-cta-content {
+    margin-top: 0px;
+  }
+
+  .third {
+    height: 95vh;
+    background-image: none;
+    background-color: #000000;
+    overflow-y: hidden;
+  }
+
+  .space-third {
+    height: 75%;
+  }
+
+  .opacity-third {
+    height: 25%;
+    background-image: linear-gradient(to top,#000000, #00000000);
+  }
+
+  .third-pq {
+    background-image: url(imagens/bg2-pq.jpg);
+    height: 45vh;
+    background-repeat: no-repeat;
+    background-size: 100vw 60vh;
+  }
+
+  .center-third-cta {
+    display: block;
+    margin: auto;
+    width: 314px;
+  }
+
+  .third-cta-content {
+    margin-top: 0px;
   }
 
 }
