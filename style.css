@@ -219,12 +219,14 @@ footer {
 
 .links-footer a {
   text-decoration: none;
-  padding: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
   font-family: "Amazon Ember Light";
   color: #0f79af;
 }
 
 footer p {
+  margin-top: 15px;
   text-align: center;
   color: #949494;
   font-size: 15px;
@@ -326,8 +328,12 @@ footer p {
     margin-top: 0px;
   }
 
+  .second-cta {
+    z-index: 1;
+  }
+
   .third {
-    height: 95vh;
+    height: 100vh;
     background-image: none;
     background-color: #000000;
     overflow-y: hidden;
@@ -357,6 +363,42 @@ footer p {
 
   .third-cta-content {
     margin-top: 0px;
+  }
+
+  .fourth {
+    height: 280vh;
+  }
+
+  .devices {
+    display: flex;
+    flex-direction: column;
+    height: 280vh;
+  }
+
+  .device {
+    width: 100%;
+  }
+
+  footer {
+    height: 30vh;
+  }
+
+  .links-footer {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+  }
+
+  .links1, .links2 {
+    height: 25px;
+    display: flex;
+    justify-content: center;  
+  }
+
+  footer p {
+    margin-top: 10px;
+    font-size: 13px;
   }
 
 }
