@@ -283,7 +283,7 @@ footer p {
 
   .p-conteudo {
     font-size: 17px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 
   .center-cta {
@@ -322,6 +322,7 @@ footer p {
     display: block;
     margin: auto;
     width: 314px;
+    height: auto;
   }
 
   .second-cta-content {
