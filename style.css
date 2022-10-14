@@ -329,7 +329,7 @@ footer p {
   }
 
   .second-cta {
-    z-index: 1;
+    height: auto;
   }
 
   .third {
@@ -366,13 +366,14 @@ footer p {
   }
 
   .fourth {
-    height: 280vh;
+    height: auto;
   }
 
   .devices {
     display: flex;
     flex-direction: column;
-    height: 280vh;
+    height: auto;
+    margin-bottom: 50px;
   }
 
   .device {
